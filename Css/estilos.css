@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(14, 13, 13);
+}
+nav{
+    font-size: 1.83em;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
+    font-weight: 900px;
+}
+ul{
+    background-color:white;
+    display: block;
+    text-align: right;
+    height: 80px;
+    list-style: none;
+    padding-right: 50px;
+
+}
+
+li{
+    display:inline-block;
+    margin:  22px;
+    cursor: pointer;
+    
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(86, 26, 252);
+    text-decoration: none;
+}
+
+.img-principal{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img{
+ width: 100%;
+}
